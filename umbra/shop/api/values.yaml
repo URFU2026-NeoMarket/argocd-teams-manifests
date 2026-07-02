@@ -6,10 +6,10 @@ ingress:
 replicaCount: 1
 resources:
   limits:
-    cpu: 50m
-    memory: 32Mi
+    cpu: 200m
+    memory: 256Mi
   requests:
-    cpu: 10m
-    memory: 16Mi
+    cpu: 100m
+    memory: 128Mi
 service:
   port: 8080
