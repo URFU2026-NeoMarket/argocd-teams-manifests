@@ -1,15 +1,15 @@
-env:
-  MY_COMMAND_ID: umbra
 image:
   repository: ghcr.io/ms-boom/contraction-example-1
   tag: sha256:194e7ad651c9d1504b30863425490f2d8305ebdd44d354e55f289844e8f00dec
 ingress:
   enabled: true
-postgres:
-  enabled: true
 replicaCount: 1
 resources:
-  limits: {}
-  requests: {}
+  limits:
+    cpu: 50m
+    memory: 32Mi
+  requests:
+    cpu: 10m
+    memory: 16Mi
 service:
   port: 8080
