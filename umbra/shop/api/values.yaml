@@ -1,6 +1,6 @@
 image:
   repository: ghcr.io/ms-boom/contraction-example-1
-  tag: 14390802bd3242da98ec0729c4433593f1d80372
+  tag: 7934ea80599971bdd61c36050ba00e12de090206
 ingress:
   enabled: true
 replicaCount: 1
